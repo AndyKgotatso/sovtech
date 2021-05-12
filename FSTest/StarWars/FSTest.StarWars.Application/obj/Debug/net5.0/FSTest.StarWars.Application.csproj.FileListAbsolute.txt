@@ -1,0 +1,12 @@
+A:\sovtech\FSTest\StarWars\FSTest.StarWars.Application\bin\Debug\net5.0\FSTest.StarWars.Application.deps.json
+A:\sovtech\FSTest\StarWars\FSTest.StarWars.Application\bin\Debug\net5.0\FSTest.StarWars.Application.dll
+A:\sovtech\FSTest\StarWars\FSTest.StarWars.Application\bin\Debug\net5.0\ref\FSTest.StarWars.Application.dll
+A:\sovtech\FSTest\StarWars\FSTest.StarWars.Application\bin\Debug\net5.0\FSTest.StarWars.Application.pdb
+A:\sovtech\FSTest\StarWars\FSTest.StarWars.Application\obj\Debug\net5.0\FSTest.StarWars.Application.GeneratedMSBuildEditorConfig.editorconfig
+A:\sovtech\FSTest\StarWars\FSTest.StarWars.Application\obj\Debug\net5.0\FSTest.StarWars.Application.AssemblyInfoInputs.cache
+A:\sovtech\FSTest\StarWars\FSTest.StarWars.Application\obj\Debug\net5.0\FSTest.StarWars.Application.AssemblyInfo.cs
+A:\sovtech\FSTest\StarWars\FSTest.StarWars.Application\obj\Debug\net5.0\FSTest.StarWars.Application.csproj.CoreCompileInputs.cache
+A:\sovtech\FSTest\StarWars\FSTest.StarWars.Application\obj\Debug\net5.0\FSTest.StarWars.Application.dll
+A:\sovtech\FSTest\StarWars\FSTest.StarWars.Application\obj\Debug\net5.0\ref\FSTest.StarWars.Application.dll
+A:\sovtech\FSTest\StarWars\FSTest.StarWars.Application\obj\Debug\net5.0\FSTest.StarWars.Application.pdb
+A:\sovtech\FSTest\StarWars\FSTest.StarWars.Application\obj\Debug\net5.0\FSTest.StarWars.Application.csprojAssemblyReference.cache

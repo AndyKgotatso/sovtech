@@ -1,0 +1,15 @@
+A:\sovtech\FSTest\Search\FSTest.Search.Application\bin\Debug\net5.0\FSTest.Search.Application.deps.json
+A:\sovtech\FSTest\Search\FSTest.Search.Application\bin\Debug\net5.0\FSTest.Search.Application.dll
+A:\sovtech\FSTest\Search\FSTest.Search.Application\bin\Debug\net5.0\ref\FSTest.Search.Application.dll
+A:\sovtech\FSTest\Search\FSTest.Search.Application\bin\Debug\net5.0\FSTest.Search.Application.pdb
+A:\sovtech\FSTest\Search\FSTest.Search.Application\bin\Debug\net5.0\FSTest.Search.Domain.dll
+A:\sovtech\FSTest\Search\FSTest.Search.Application\bin\Debug\net5.0\FSTest.Search.Domain.pdb
+A:\sovtech\FSTest\Search\FSTest.Search.Application\obj\Debug\net5.0\FSTest.Search.Application.csprojAssemblyReference.cache
+A:\sovtech\FSTest\Search\FSTest.Search.Application\obj\Debug\net5.0\FSTest.Search.Application.GeneratedMSBuildEditorConfig.editorconfig
+A:\sovtech\FSTest\Search\FSTest.Search.Application\obj\Debug\net5.0\FSTest.Search.Application.AssemblyInfoInputs.cache
+A:\sovtech\FSTest\Search\FSTest.Search.Application\obj\Debug\net5.0\FSTest.Search.Application.AssemblyInfo.cs
+A:\sovtech\FSTest\Search\FSTest.Search.Application\obj\Debug\net5.0\FSTest.Search.Application.csproj.CoreCompileInputs.cache
+A:\sovtech\FSTest\Search\FSTest.Search.Application\obj\Debug\net5.0\FSTest.Search.Application.csproj.CopyComplete
+A:\sovtech\FSTest\Search\FSTest.Search.Application\obj\Debug\net5.0\FSTest.Search.Application.dll
+A:\sovtech\FSTest\Search\FSTest.Search.Application\obj\Debug\net5.0\ref\FSTest.Search.Application.dll
+A:\sovtech\FSTest\Search\FSTest.Search.Application\obj\Debug\net5.0\FSTest.Search.Application.pdb

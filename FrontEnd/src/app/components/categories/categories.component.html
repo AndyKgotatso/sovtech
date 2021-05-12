@@ -1,0 +1,30 @@
+<div class="nucleo-icons-style">
+    <div class="bg-warning">
+        <div class="container" style="height: 60px">
+        </div>
+    </div>
+    <header class="font-weight-bold mb-3">
+        <h1>Chuck Norris Jokes People</h1>
+    </header>
+    <div *ngIf="isLoading" class="text-center text-info" role="status">
+        <i class="now-ui-icons loader_refresh spin"></i>
+    </div>
+    <ngb-alert *ngIf="this.categories === null" type="danger" [dismissible]="false">
+        <div class="container">
+            <div class="alert-wrapper">
+                <div class="text-center">
+                    <p>Oops! Something went wrong</p>
+                </div>
+            </div>
+        </div>
+    </ngb-alert>
+    <div id="icons-wrapper">
+        <section id="arrows">
+            <ul>
+                <li *ngFor="let c of this.categories?.categories" [routerLink]="[c]">
+                    <h1>{{c.charAt(0).toUpperCase() + c.slice(1)}}</h1>
+                </li>
+            </ul>
+        </section>
+    </div>
+</div>

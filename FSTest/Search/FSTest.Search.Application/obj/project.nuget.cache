@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "dgSpecHash": "teaDranAZy6Z8wkPs4+SWdT78PAc92IZEcUB0U1z971G6k+CRdHtcJfdeFV/JJvBQGPqTfSLP8i4t9I3rpnmLg==",
+  "success": true,
+  "projectFilePath": "A:\\sovtech\\FSTest\\Search\\FSTest.Search.Application\\FSTest.Search.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\andyk\\.nuget\\packages\\fluentvalidation\\10.1.0\\fluentvalidation.10.1.0.nupkg.sha512",
+    "C:\\Users\\andyk\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\10.1.0\\fluentvalidation.dependencyinjectionextensions.10.1.0.nupkg.sha512",
+    "C:\\Users\\andyk\\.nuget\\packages\\jw.pager\\1.0.1\\jw.pager.1.0.1.nupkg.sha512",
+    "C:\\Users\\andyk\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512",
+    "C:\\Users\\andyk\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\9.0.0\\mediatr.extensions.microsoft.dependencyinjection.9.0.0.nupkg.sha512",
+    "C:\\Users\\andyk\\.nuget\\packages\\microsoft.extensions.configuration\\5.0.0\\microsoft.extensions.configuration.5.0.0.nupkg.sha512",
+    "C:\\Users\\andyk\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\5.0.0\\microsoft.extensions.configuration.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\andyk\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\5.0.1\\microsoft.extensions.dependencyinjection.5.0.1.nupkg.sha512",
+    "C:\\Users\\andyk\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\andyk\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

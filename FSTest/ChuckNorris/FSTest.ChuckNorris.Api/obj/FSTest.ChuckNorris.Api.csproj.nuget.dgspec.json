@@ -1,0 +1,147 @@
+{
+  "format": 1,
+  "restore": {
+    "A:\\sovtech\\FSTest\\ChuckNorris\\FSTest.ChuckNorris.Api\\FSTest.ChuckNorris.Api.csproj": {}
+  },
+  "projects": {
+    "A:\\sovtech\\FSTest\\ChuckNorris\\FSTest.ChuckNorris.Api\\FSTest.ChuckNorris.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "A:\\sovtech\\FSTest\\ChuckNorris\\FSTest.ChuckNorris.Api\\FSTest.ChuckNorris.Api.csproj",
+        "projectName": "FSTest.ChuckNorris.Api",
+        "projectPath": "A:\\sovtech\\FSTest\\ChuckNorris\\FSTest.ChuckNorris.Api\\FSTest.ChuckNorris.Api.csproj",
+        "packagesPath": "C:\\Users\\andyk\\.nuget\\packages\\",
+        "outputPath": "A:\\sovtech\\FSTest\\ChuckNorris\\FSTest.ChuckNorris.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\andyk\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "A:\\sovtech\\FSTest\\ChuckNorris\\FSTest.ChuckNorris.Application\\FSTest.ChuckNorris.Application.csproj": {
+                "projectPath": "A:\\sovtech\\FSTest\\ChuckNorris\\FSTest.ChuckNorris.Application\\FSTest.ChuckNorris.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.1.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "A:\\sovtech\\FSTest\\ChuckNorris\\FSTest.ChuckNorris.Application\\FSTest.ChuckNorris.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "A:\\sovtech\\FSTest\\ChuckNorris\\FSTest.ChuckNorris.Application\\FSTest.ChuckNorris.Application.csproj",
+        "projectName": "FSTest.ChuckNorris.Application",
+        "projectPath": "A:\\sovtech\\FSTest\\ChuckNorris\\FSTest.ChuckNorris.Application\\FSTest.ChuckNorris.Application.csproj",
+        "packagesPath": "C:\\Users\\andyk\\.nuget\\packages\\",
+        "outputPath": "A:\\sovtech\\FSTest\\ChuckNorris\\FSTest.ChuckNorris.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\andyk\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

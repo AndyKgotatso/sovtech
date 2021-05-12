@@ -1,0 +1,11 @@
+A:\sovtech\FSTest\Search\FSTest.Search.Domain\bin\Debug\net5.0\FSTest.Search.Domain.deps.json
+A:\sovtech\FSTest\Search\FSTest.Search.Domain\bin\Debug\net5.0\FSTest.Search.Domain.dll
+A:\sovtech\FSTest\Search\FSTest.Search.Domain\bin\Debug\net5.0\ref\FSTest.Search.Domain.dll
+A:\sovtech\FSTest\Search\FSTest.Search.Domain\bin\Debug\net5.0\FSTest.Search.Domain.pdb
+A:\sovtech\FSTest\Search\FSTest.Search.Domain\obj\Debug\net5.0\FSTest.Search.Domain.GeneratedMSBuildEditorConfig.editorconfig
+A:\sovtech\FSTest\Search\FSTest.Search.Domain\obj\Debug\net5.0\FSTest.Search.Domain.AssemblyInfoInputs.cache
+A:\sovtech\FSTest\Search\FSTest.Search.Domain\obj\Debug\net5.0\FSTest.Search.Domain.AssemblyInfo.cs
+A:\sovtech\FSTest\Search\FSTest.Search.Domain\obj\Debug\net5.0\FSTest.Search.Domain.csproj.CoreCompileInputs.cache
+A:\sovtech\FSTest\Search\FSTest.Search.Domain\obj\Debug\net5.0\FSTest.Search.Domain.dll
+A:\sovtech\FSTest\Search\FSTest.Search.Domain\obj\Debug\net5.0\ref\FSTest.Search.Domain.dll
+A:\sovtech\FSTest\Search\FSTest.Search.Domain\obj\Debug\net5.0\FSTest.Search.Domain.pdb

@@ -1,0 +1,64 @@
+<div class="nucleo-icons-style">
+    <div class="bg-warning">
+        <div class="container" style="height: 60px">
+        </div>
+    </div>
+    <header class="font-weight-bold mb-3">
+        <h1>Start Wars People</h1>
+    </header>
+    <div *ngIf="isLoading" class="text-center text-info" role="status">
+        <i class="now-ui-icons loader_refresh spin"></i>
+    </div>
+    <ngb-alert *ngIf="!isLoading && this.people?.results === null" type="danger" [dismissible]="false">
+        <div class="container">
+            <div class="alert-wrapper">
+                <div class="text-center">
+                    <p>Oops! Something went wrong</p>
+                </div>
+            </div>
+        </div>
+    </ngb-alert>
+</div>
+<div class="mx-auto container">
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Height</th>
+            <th>Mass</th>
+            <th>Hair Color</th>
+            <th>Skin Color</th>
+            <th>Eye Color</th>
+            <th>Birth Year</th>
+            <th>Gender</th>
+        </tr>
+        <tr *ngFor="let p of people?.results">
+            <td>{{p.name}}</td>
+            <td>{{p.height}}</td>
+            <td>{{p.mass}}</td>
+            <td>{{p.hair_color}}</td>
+            <td>{{p.skin_color}}</td>
+            <td>{{p.eye_color}}</td>
+            <td>{{p.birth_year}}</td>
+            <td>{{p.gender}}</td>
+        </tr>
+    </table>
+</div>
+
+<div class="main">
+    <div class="section section-download">
+        <div class="container">
+            <div class="row justify-content-md-center">
+                <div class="text-center col-12">
+                    <button *ngIf="people?.previous" (click)="prevOrNextCounter(-1)"
+                       class="btn btn-warning">
+                        Previous
+                    </button>
+                    <button *ngIf="people?.next" (click)="prevOrNextCounter(1)"
+                       class="ml-2 btn btn-success">
+                        Next
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

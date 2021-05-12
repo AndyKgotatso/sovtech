@@ -1,0 +1,39 @@
+<div class="nucleo-icons-style">
+    <div class="bg-warning">
+        <div class="container" style="height: 60px">
+        </div>
+    </div>
+    <header class="font-weight-bold mb-3">
+        <h1 *ngIf="this.categoryDetail?.categories">Category Details</h1>
+    </header>
+    <div *ngIf="isLoading" class="text-center text-info" role="status">
+        <i class="now-ui-icons loader_refresh spin"></i>
+    </div>
+    <ngb-alert *ngIf="!isLoading && this.categoryDetail?.id === null" type="danger" [dismissible]="false">
+        <div class="container">
+            <div class="alert-wrapper">
+                <div class="text-center">
+                    <p>Oops! Category Details Not Found</p>
+                </div>
+            </div>
+        </div>
+    </ngb-alert>
+</div>
+<div class="container">
+    <div class="row px-2">
+        <div class="col-lg-4 text-center">
+            <h1 class="category font-weight-bold" *ngIf="categoryName">{{categoryName.toUpperCase()}}</h1>
+            <div class="space-50"></div>
+            <img [src]="this.categoryDetail?.icon_url" alt="Raised Image" style="display: block"
+                 class="rounded img-raised">
+        </div>
+
+        <div *ngIf="this.categoryDetail" class="col-lg-8 mt-5 h1Value">
+            <h1><span class="boldText">Joke</span> : {{this.categoryDetail.value}}</h1>
+            <h1><span class="boldText">Created At</span> : {{this.categoryDetail.created_at}}</h1>
+            <h1><span class="boldText">Updated At</span> : {{this.categoryDetail.updated_at}}</h1>
+            <h1><span class="boldText">Url</span> : {{this.categoryDetail.url}}</h1>
+            <h1><span class="boldText">Id</span> : {{this.categoryDetail.id}}</h1>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,12 @@
+A:\sovtech\FSTest\ChuckNorris\FSTest.ChuckNorris.Application\bin\Debug\net5.0\FSTest.ChuckNorris.Application.deps.json
+A:\sovtech\FSTest\ChuckNorris\FSTest.ChuckNorris.Application\bin\Debug\net5.0\FSTest.ChuckNorris.Application.dll
+A:\sovtech\FSTest\ChuckNorris\FSTest.ChuckNorris.Application\bin\Debug\net5.0\ref\FSTest.ChuckNorris.Application.dll
+A:\sovtech\FSTest\ChuckNorris\FSTest.ChuckNorris.Application\bin\Debug\net5.0\FSTest.ChuckNorris.Application.pdb
+A:\sovtech\FSTest\ChuckNorris\FSTest.ChuckNorris.Application\obj\Debug\net5.0\FSTest.ChuckNorris.Application.GeneratedMSBuildEditorConfig.editorconfig
+A:\sovtech\FSTest\ChuckNorris\FSTest.ChuckNorris.Application\obj\Debug\net5.0\FSTest.ChuckNorris.Application.AssemblyInfoInputs.cache
+A:\sovtech\FSTest\ChuckNorris\FSTest.ChuckNorris.Application\obj\Debug\net5.0\FSTest.ChuckNorris.Application.AssemblyInfo.cs
+A:\sovtech\FSTest\ChuckNorris\FSTest.ChuckNorris.Application\obj\Debug\net5.0\FSTest.ChuckNorris.Application.csproj.CoreCompileInputs.cache
+A:\sovtech\FSTest\ChuckNorris\FSTest.ChuckNorris.Application\obj\Debug\net5.0\FSTest.ChuckNorris.Application.dll
+A:\sovtech\FSTest\ChuckNorris\FSTest.ChuckNorris.Application\obj\Debug\net5.0\ref\FSTest.ChuckNorris.Application.dll
+A:\sovtech\FSTest\ChuckNorris\FSTest.ChuckNorris.Application\obj\Debug\net5.0\FSTest.ChuckNorris.Application.pdb
+A:\sovtech\FSTest\ChuckNorris\FSTest.ChuckNorris.Application\obj\Debug\net5.0\FSTest.ChuckNorris.Application.csprojAssemblyReference.cache

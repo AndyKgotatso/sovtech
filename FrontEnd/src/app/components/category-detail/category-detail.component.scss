@@ -1,0 +1,171 @@
+.nucleo-icons-style,
+.nucleo-icons-style,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+.nucleo-icons-style {
+  line-height: 1;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+.nucleo-icons-style {
+  font-size: 62.5%;
+}
+
+.nucleo-icons-style {
+  font-size: 1.6rem;
+  font-family: sans-serif;
+  color: #333333;
+  //fmbackground: #efefef;
+}
+
+header {
+  text-align: center;
+  padding: 120px 0 0;
+}
+
+header h1 {
+  font-size: 1.2rem;
+}
+
+header p {
+  font-size: .9rem;
+  margin-top: .6em;
+}
+
+header a:hover {
+  text-decoration: underline;
+}
+
+
+@media only screen and (min-width: 50px) {
+  ul li {
+    width: 50%;
+    float: left;
+  }
+}
+
+@media only screen and (min-width: 500px) {
+  ul li {
+    width: 33%;
+    float: left;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  ul li {
+    width: 33%;
+    float: left;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  ul li {
+    width: 20%;
+    float: left;
+    padding: 32px 0;
+  }
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.h1Value {
+  font-size: large;
+  word-wrap: anywhere;
+}
+
+.boldText {
+  font-weight: bold
+}

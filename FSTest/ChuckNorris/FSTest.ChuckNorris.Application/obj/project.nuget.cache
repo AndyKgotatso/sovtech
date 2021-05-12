@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "xXTmmlscBm+Sf8zptNSTiWP3OJERpFliMBGzuhmv4bbetLMC2sdPrlBnwISsagBY1SC4Anavl3jiz5vvyqOCRA==",
+  "success": true,
+  "projectFilePath": "A:\\sovtech\\FSTest\\ChuckNorris\\FSTest.ChuckNorris.Application\\FSTest.ChuckNorris.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\andyk\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512",
+    "C:\\Users\\andyk\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\9.0.0\\mediatr.extensions.microsoft.dependencyinjection.9.0.0.nupkg.sha512",
+    "C:\\Users\\andyk\\.nuget\\packages\\microsoft.extensions.configuration\\5.0.0\\microsoft.extensions.configuration.5.0.0.nupkg.sha512",
+    "C:\\Users\\andyk\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\5.0.0\\microsoft.extensions.configuration.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\andyk\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\5.0.1\\microsoft.extensions.dependencyinjection.5.0.1.nupkg.sha512",
+    "C:\\Users\\andyk\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\andyk\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

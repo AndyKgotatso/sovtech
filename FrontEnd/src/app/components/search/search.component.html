@@ -1,0 +1,83 @@
+<div class="nucleo-icons-style">
+    <div class="bg-warning">
+        <div class="container" style="height: 60px">
+        </div>
+    </div>
+    <header class="font-weight-bold mx-4 mb-3">
+        <div class="row   mx-auto">
+            <div class="col-sm-12 col-lg-12 ">
+                <div class="form-group">
+                    <input ngModel="andy" #query="ngModel" type="text" placeholder="Search here..."
+                           class="form-control form-control-success"/>
+                </div>
+            </div>
+            <div class="col-sm-12 col-lg-12">
+                <button (click)="search(query.value)"
+                        class="ml-2 btn btn-success">
+                    Search
+                </button>
+            </div>
+        </div>
+        <h1>Start Wars People</h1>
+    </header>
+    <div *ngIf="isLoading" class="text-center text-info" role="status">
+        <i class="now-ui-icons loader_refresh spin"></i>
+    </div>
+</div>
+<div class="mx-auto container">
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Height</th>
+            <th>Mass</th>
+            <th>Hair Color</th>
+            <th>Skin Color</th>
+            <th>Eye Color</th>
+            <th>Birth Year</th>
+            <th>Gender</th>
+        </tr>
+        <tr *ngFor="let p of searchResponse?.swapi.results">
+            <td>{{p.name}}</td>
+            <td>{{p.height}}</td>
+            <td>{{p.mass}}</td>
+            <td>{{p.hair_color}}</td>
+            <td>{{p.skin_color}}</td>
+            <td>{{p.eye_color}}</td>
+            <td>{{p.birth_year}}</td>
+            <td>{{p.gender}}</td>
+        </tr>
+    </table>
+</div>
+
+<div class="">
+    <div style="font-size: medium; font-weight: bold" class=" my-3 text-center">
+        <h1>Chuck Norris Jokes</h1>
+    </div>
+    <div *ngIf="isLoading" class="text-center text-info" role="status">
+        <i class="now-ui-icons loader_refresh spin"></i>
+    </div>
+</div>
+<div class="mx-auto container mb-5">
+    <table>
+        <tr>
+            <th>Categories</th>
+            <th>Joke</th>
+            <th>Id</th>
+            <th>Icon</th>
+            <th>Created At</th>
+            <th>Updated At</th>
+        </tr>
+        <tr *ngFor="let p of searchResponse?.chuck.result">
+            <td>{{p.categories?.toString()}}</td>
+            <td>{{p.value}}</td>
+            <td>{{p.id}}</td>
+            <td><img [src]="p.icon_url"/></td>
+            <td>{{p.created_at}}</td>
+            <td>{{p.updated_at}}</td>
+        </tr>
+    </table>
+    <ngb-pagination [collectionSize]="searchResponse?.chuckPager.totalPages"
+                    [(page)]="searchResponse?.chuckPager.currentPage"
+                    (pageChange)="onPageChange($event)"
+                    aria-label="Default pagination" class="pagination-primary "></ngb-pagination>
+</div>
